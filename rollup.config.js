@@ -55,7 +55,7 @@ export default () =>
       input: ['src/server/index.js'],
       output: [{
          file: `${s_DEPLOY_PATH}${path.sep}server-esm.js`,
-         format: 'esm',
+         format: 'es',
          plugins: outputPlugins,
          preferConst: true,
          sourcemap: s_SOURCEMAP,
