@@ -9,6 +9,6 @@ export default (sourceMap = false) =>
       extensions: ['.less', '.css'],                        // File extensions
       plugins: [autoprefixer, postcssPresetEnv],            // Postcss plugins to use
       sourceMap,                                            // Potentially generate sourcemaps
-      use: ['less'],                                        // Use sass / dart-sass
+      use: ['less'],                                        // Use less
    };
 };
