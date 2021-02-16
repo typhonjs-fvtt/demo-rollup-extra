@@ -1,0 +1,46 @@
+{
+  "name": "demo-rollup-basic",
+  "version": "0.0.0",
+  "homepage": "https://github.com/typhonjs-fvtt/demo-rollup-basic",
+  "description": "Provides an example using Rollup to create `foundry.js`",
+  "license": "The Unlicense",
+  "author": {
+    "name": "typhonrt"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typhonjs-fvtt/demo-rollup-basic.git"
+  },
+  "maintainers": [
+    {
+      "name": "typhonrt",
+      "email": "fvtt@typhonjs.io"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.0.0",
+    "http-server": "^0.12.0",
+    "less": "^4.0.0",
+    "postcss": "^8.0.0",
+    "postcss-preset-env": "^6.0.0",
+    "rollup": "^2.0.0",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.0"
+  },
+  "keywords": [
+    "rollup",
+    "basic",
+    "concat"
+  ],
+  "scripts": {
+    "build": "rollup --config",
+    "serve": "http-server \"./public\" --port 8080"
+  },
+  "files": [],
+  "directories": {},
+  "bugs": {
+    "url": "https://github.com/typhonjs-fvtt/demo-rollup-basic/issues"
+  }
+}
